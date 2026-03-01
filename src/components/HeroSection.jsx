@@ -54,7 +54,7 @@ export default function HeroSection(){
 
             {/* Content */}
             <motion.div 
-                className="relative z-10 md:max-w-5xl lg:max-w-5xl px-10 md:px-0 mx-auto h-full flex flex-col justify-center md:px-6 text-center md:text-left"
+                className="relative z-10 md:max-w-5xl lg:max-w-5xl px-5 md:px-0 mx-auto h-full flex flex-col justify-center md:px-6 text-center md:text-left"
                 variants={containerVariants}
                 initial="hidden"
                 animate="visible"
