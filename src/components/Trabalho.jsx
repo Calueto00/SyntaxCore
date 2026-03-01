@@ -33,7 +33,7 @@ export default function Trabalho() {
     return (
         <section id="work" className="md:h-[65vh] h-[100vh] bg-gradient-to-t from-black/95 to-black/90 text-white" ref={ref}>
             <motion.div 
-                className="md:max-w-5xl px-10 md:px-0 m-auto h-full flex items-center justify-center"
+                className="md:max-w-5xl px-5 md:px-0 m-auto h-full flex items-center justify-center"
                 variants={containerVariants}
                 initial="hidden"
                 animate={isInView ? "visible" : "hidden"}
@@ -44,7 +44,7 @@ export default function Trabalho() {
                     </motion.div>
                     <motion.div className="p-2 md:w-1/2 w-full text-start md:space-y-4 space-y-2" variants={itemVariants}>
                         <span className="text-blue-700 font-bold md:text-lg text-sm">Cláusulas de Trabalho</span>
-                        <h3 className="md:text-4xl text-2xl font-bold">Como Trabalhamos</h3>
+                        <h3 className="md:text-4xl text-xl font-bold">Como Trabalhamos</h3>
                         <p className="text-justify md:text-lg">Acreditamos na clareza. Todos os nossos projctos 
                             seguem normas rigorosas de entrega, prazos e suporte pós-venda.
                         </p>

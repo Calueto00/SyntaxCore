@@ -31,7 +31,7 @@ export default function ContactoSection() {
     return (
         <section id="contact" className="h-[100vh] bg-black/90 text-white" ref={ref}>
             <motion.div 
-                className="md:max-w-5xl px-10 md:px-0 m-auto h-full flex items-center justify-center"
+                className="md:max-w-5xl px-5 md:px-0 m-auto h-full flex items-center justify-center"
                 variants={containerVariants}
                 initial="hidden"
                 animate={isInView ? "visible" : "hidden"}

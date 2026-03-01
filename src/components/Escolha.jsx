@@ -30,15 +30,15 @@ export default function Escolha(){
     return (
         <section className="h-screen bg-black/90 grid" ref={ref}>
             <motion.div 
-                className=" text-white md:max-w-5xl xl:max-w-5xl px-10 md:px-0 m-auto"
+                className=" text-white md:max-w-5xl xl:max-w-5xl px-5 md:px-0 m-auto"
                 variants={containerVariants}
                 initial="hidden"
                 animate={isInView ? "visible" : "hidden"}
             >
-                <div className="flex flex-col  md:flex-row items-center gap-8">
+                <div className="flex flex-col  md:flex-row items-center gap-8 mt-5 md:mt-0">
                     <motion.div className="md:h-[500px] md:w-1/2 flex-col flex md:flex-col md:justify-center md:space-y-4 space-y-3" variants={itemVariants}>
                         <span className="text-blue-700 font-semibold md:text-lg text-sm">Porque nos escolher?</span>
-                        <h1 className="font-bold md:text-4xl text-2xl">Soluções Customizadas <br /> para Sucesso do seu Negócio</h1>
+                        <h1 className="font-bold md:text-4xl text-xl">Soluções Customizadas <br /> para Sucesso do seu Negócio</h1>
                         <div>
                             <p className="md:text-lg text-gray-300 w-full text-justify">Nossa Equipe é especializada em criar 
                                 soluções tecnológicas personalizadas para atender

@@ -54,7 +54,7 @@ export default function AboutSection(){
     return(
         <section id='about' className="py-20 px-4 md:py-32 bg-black/95 to-gray-700" ref={ref}>
             <motion.div 
-                className="md:max-w-5xl lg:max-w-5xl px-10 md:px-0 mx-auto"
+                className="md:max-w-5xl lg:max-w-5xl px-5 md:px-0 mx-auto"
                 variants={containerVariants}
                 initial="hidden"
                 animate={isInView ? "visible" : "hidden"}
@@ -83,7 +83,7 @@ export default function AboutSection(){
                     {/* Conteúdo */}
                     <motion.div className="space-y-6" variants={itemVariants}>
                         <span className='text-sm text-blue-600 font-bold uppercase tracking-wider'>Sobre Nós</span>
-                        <h1 className='font-bold text-2xl md:text-4xl leading-tight text-white mt-3'>
+                        <h1 className='font-bold text-xl md:text-4xl leading-tight text-white mt-3'>
                             A Nossa Engenharia,<br /> O Seu Sucesso
                         </h1>
                         <div className='md:text-lg text-gray-300 space-y-4 leading-relaxed'>

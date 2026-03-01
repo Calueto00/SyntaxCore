@@ -47,7 +47,7 @@ export default function Footer(){
 
     return(
         <footer className="bg-gradient-to-b from-black to-black/95 text-white border-t border-gray-800">
-           <div className="md:max-w-6xl mx-auto md:px-4 px-10 py-12">
+           <div className="md:max-w-6xl mx-auto md:px-4 px-5 py-12">
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-8 mb-8">
                     {/* Company Info */}
                     <div className="space-y-4">

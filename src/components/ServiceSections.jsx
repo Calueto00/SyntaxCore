@@ -156,7 +156,7 @@ export default function ServiceSection(){
     return (
         <section id='services' className="py-16 bg-black/95 h-[100vh] relative " ref={ref}>
             <motion.div 
-                className="md:max-w-5xl px-10 md:px-0 m-auto text-white flex items-center justify-center h-full"
+                className="md:max-w-5xl px-5 md:px-0 m-auto text-white flex items-center justify-center h-full"
                 variants={containerVariants}
                 initial="hidden"
                 animate={isInView ? "visible" : "hidden"}
@@ -164,7 +164,7 @@ export default function ServiceSection(){
                 <div className="">
                     <motion.div className="mb-6 text-center" variants={itemVariants}>
                         <h3 className="text-blue-700 font-semibold md:text-lg text-sm">Nossos Serviços</h3>
-                        <h2 className="md:text-4xl text-2xl font-extrabold">Serviços Prestados Para Elevar Seu Negócio</h2>
+                        <h2 className="md:text-4xl text-xl font-extrabold">Serviços Prestados Para Elevar Seu Negócio</h2>
                         <p className="text-gray-400 mt-2 text-justify md:text-center text-justify">Soluções tecnológicas pensadas para escalar operações, otimizar processos e melhorar a experiência do cliente.</p>
                     </motion.div>
 
@@ -194,7 +194,7 @@ export default function ServiceSection(){
                         <motion.button
                             onClick={() => setCurrent((c) => (c - 1 + slides.length) % slides.length)}
                             aria-label="Anterior"
-                            className="absolute left-6 cursor-pointer top-1/2 transition ease-in-out delay-150 duration-300
+                            className="absolute left-2 cursor-pointer top-1/2 transition ease-in-out delay-150 duration-300
                             -translate-y-1/2 bg-black/60 hover:bg-black/80 text-white p-4 hover:bg-blue-700  rounded-full"
                             whileHover={{ scale: 1.1 }}
                             whileTap={{ scale: 0.95 }}
@@ -207,7 +207,7 @@ export default function ServiceSection(){
                         <motion.button
                             onClick={() => setCurrent((c) => (c + 1) % slides.length)}
                             aria-label="Próximo"
-                            className="absolute right-6 top-1/2 cursor-pointer transition ease-in-out delay-150 duration-300
+                            className="absolute right-2 top-1/2 cursor-pointer transition ease-in-out delay-150 duration-300
                              -translate-y-1/2 bg-black/60 hover:bg-black/80 text-white p-4 hover:bg-blue-700 rounded-full"
                             whileHover={{ scale: 1.1 }}
                             whileTap={{ scale: 0.95 }}
