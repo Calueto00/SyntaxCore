@@ -39,8 +39,8 @@ export default function Footer(){
     const socialLinks = [
       { name: "E-mail", href: "mailto:Syntaxandcore@gmail.com" },
       { name: "WhatsApp", href: "https://wa.me/958354061" },
-      { name: "LinkedIn", href: "https://linkedin.com" },
-      { name: "Instagram", href: "https://instagram.com" }
+      { name: "LinkedIn", href: "https://ao.linkedin.com/in/syntax-and-core-2ab5293b3" },
+      { name: "Instagram", href: "https://www.instagram.com/syntax_and_core?igsh=MWkycDZqYW1pZ3Q5dA==" }
     ]
 
     const navLinks = ["Ínicio", "Sobre Nós", "Serviços", "Contacto"]
